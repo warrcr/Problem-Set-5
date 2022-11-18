@@ -54,7 +54,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         // scores
         g.setColor(Color.white);
         g.setFont(new Font("serif", Font.BOLD, 25));
-        g.drawString("score", 590,30);
+        g.drawString(""+score, 590,30);
 
         // the paddle
         g.setColor(Color.GREEN);
@@ -160,11 +160,12 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
             }
         }
         if(e.getKeyCode() == KeyEvent.VK_LEFT) {
-            if(playerX <= 10) {
+            if (playerX <= 10) {
                 playerX = 10;
-            }else {
+            } else {
                 moveLeft();
             }
+        }
             if(e.getKeyCode() == KeyEvent.VK_ENTER){
                 if(!play){
                     play = true;
@@ -181,7 +182,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
                 }
             }
         }
-    }
+
     public void moveRight(){
         play = true;
         playerX+=20;
@@ -190,6 +191,5 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         play = true;
         playerX-=20;
     }
-
 
 }
