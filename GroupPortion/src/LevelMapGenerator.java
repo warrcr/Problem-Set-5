@@ -19,13 +19,13 @@ public class LevelMapGenerator extends MapGenerator {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
                 if (map[i][j] > 0) {
-                    if (map[i][j] == 3) {
+                    if (map[i][j] % 3 == 0) {
                         g.setColor(Color.red);
                     }
-                    if (map[i][j] == 2) {
+                    if (map[i][j] % 3 == 2) {
                         g.setColor(Color.yellow);
                     }
-                    if (map[i][j] == 1) {
+                    if (map[i][j] % 3 == 1) {
                         g.setColor(Color.green);
                     }
                     g.fillRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
