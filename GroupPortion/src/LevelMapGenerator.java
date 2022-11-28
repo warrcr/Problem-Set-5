@@ -1,30 +1,31 @@
 import java.awt.*;
 
-public class MapGenerator2 {
+public class LevelMapGenerator extends MapGenerator {
 
-    public int map[][];
-    public int brickWidth;
-    public int brickHeight;
+    private int levels;
 
-    public MapGenerator2(int row, int column) {
-        map = new int[row][column];
+    public LevelMapGenerator(int row, int column, int level) {
+        super(row, column);
+        this.levels =  level;
+
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
-                map[i][j] = 2;
+                map[i][j] = this.levels;
             }
         }
-        brickWidth = 540 / column;
-        brickHeight = 150 / row;
     }
 
     public void draw(Graphics2D g) {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
                 if (map[i][j] > 0) {
-                    if (map[i][j] == 2) {
-                        g.setColor(Color.white);
-                    } else if (map[i][j] == 1) {
+                    if (map[i][j] == 3) {
+                        g.setColor(Color.red);
+                    } if (map[i][j] == 2) {
                         g.setColor(Color.yellow);
+                    }
+                    if (map[i][j] == 1) {
+                        g.setColor(Color.green);
                     }
                     g.fillRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
 
@@ -36,17 +37,8 @@ public class MapGenerator2 {
         }
     }
 
-    public void setBrickValue(int value, int row, int column) {
-        map[row][column] = value;
-    }
-
     public void reduceBrickValue(int row, int column) {
         if (map[row][column] > 0)
             map[row][column] -= 1;
     }
 }
-
-
-
-
-

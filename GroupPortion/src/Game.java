@@ -16,10 +16,11 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     private int ballposY = 350;
     private int ballXdir = -1;
     private int ballYdir = -2;
-    private MapGenerator map;
+    private LevelMapGenerator map;
+
 
     public Game() {
-        map = new MapGenerator(3,7);
+        map = new LevelMapGenerator(3,7, 3);
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -33,6 +34,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         g.fillRect(1,1,692,592);
         // Drawing Map
         map.draw((Graphics2D)g);
+
         // Borders
         g.setColor(Color.yellow);
         g.fillRect(0,0,3,592);
@@ -95,7 +97,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
                         Rectangle brickRect = rect;
 
                         if (ballRect.intersects(brickRect)) {
-                            map.setBrickValue(0,i,j);
+                            map.reduceBrickValue(i,j);
                             totalBricks--;
                             score += 5;
 
@@ -161,7 +163,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
                 playerX = 310;
                 score = 0;
                 totalBricks = 21;
-                map = new MapGenerator(3, 7);
+                map = new LevelMapGenerator(3, 7, 2);
 
                 repaint();
             }
