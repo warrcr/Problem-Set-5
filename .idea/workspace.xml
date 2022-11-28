@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="first commit">
+    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="infinite levels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" afterDir="false" />
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669672823438</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="infinite levels">
+      <created>1669674131896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669674131896</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="infinite levels" />
+    <option name="LAST_COMMIT_MESSAGE" value="infinite levels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

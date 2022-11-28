@@ -45,6 +45,10 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         g.setColor(Color.white);
         g.setFont(new Font("serif", Font.BOLD, 25));
         g.drawString(""+score, 590,30);
+        // Level
+        g.setColor(Color.white);
+        g.setFont(new Font("serif", Font.BOLD, 25));
+        g.drawString("Level "+count, 60,30);
         // The Paddle
         g.setColor(Color.green);
         g.fillRect(playerX, 550, 100,8);
@@ -72,6 +76,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
             g.drawString("Game Over, Score: " + score, 230,300);
             g.setFont(new Font("serif", Font.BOLD, 20));
             g.drawString("Press Enter to Restart", 250,350);
+            count = 0;
         }
 
         g.dispose();

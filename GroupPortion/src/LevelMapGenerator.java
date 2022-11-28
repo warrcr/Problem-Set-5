@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Random;
 
 public class LevelMapGenerator extends MapGenerator {
 
@@ -19,14 +20,35 @@ public class LevelMapGenerator extends MapGenerator {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
                 if (map[i][j] > 0) {
-                    if (map[i][j] % 3 == 0) {
-                        g.setColor(Color.red);
+                    if (map[i][j] % 10 == 1) {
+                        g.setColor(Color.green);
                     }
-                    if (map[i][j] % 3 == 2) {
+                    else if (map[i][j] % 10 == 2) {
                         g.setColor(Color.yellow);
                     }
-                    if (map[i][j] % 3 == 1) {
-                        g.setColor(Color.green);
+                    else if (map[i][j] % 10 == 3) {
+                        g.setColor(Color.red);
+                    }
+                    else if (map[i][j] % 10 == 4) {
+                        g.setColor(Color.magenta);
+                    }
+                    else if (map[i][j] % 10 == 5) {
+                        g.setColor(Color.cyan);
+                    }
+                    else if (map[i][j] % 10 == 6) {
+                        g.setColor(Color.white);
+                    }
+                    else if (map[i][j] % 10 == 7) {
+                        g.setColor(Color.orange);
+                    }
+                    else if (map[i][j] % 10 == 8) {
+                        g.setColor(Color.blue);
+                    }
+                    else if (map[i][j] % 10 == 9) {
+                        g.setColor(Color.pink);
+                    }
+                    else {
+                        g.setColor(Color.gray);
                     }
                     g.fillRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
 
