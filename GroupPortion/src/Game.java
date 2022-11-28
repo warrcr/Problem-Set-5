@@ -17,7 +17,6 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     private int ballXdir = -1;
     private int ballYdir = -2;
     private MapGenerator map;
-    //private int z = 0;
 
     public Game() {
         map = new MapGenerator(3,7);
@@ -154,7 +153,6 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         }
         if (e.getKeyCode() == KeyEvent.VK_ENTER) {
             if (!play) {
-                //z++;
                 play = true;
                 ballposX = 120;
                 ballposY = 350;
@@ -164,7 +162,6 @@ public class Game extends JPanel implements KeyListener, ActionListener {
                 score = 0;
                 totalBricks = 21;
                 map = new MapGenerator(3, 7);
-                //map = new MapGenerator(3 + z, 7 + z);
 
                 repaint();
             }
