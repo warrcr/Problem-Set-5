@@ -8,6 +8,8 @@ import javax.swing.*;
 5. Bricks need to be hit multiple times to break
 6. Other
  */
+
+
 public class Main {
     public static void main(String[] args) {
         JFrame obj = new JFrame();
