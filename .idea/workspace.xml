@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="infinite levels">
+    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669674131896</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="infinite levels">
+      <created>1669676038233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669676038233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

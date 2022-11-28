@@ -35,7 +35,6 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         g.fillRect(1,1,692,592);
         // Drawing Map
         map.draw((Graphics2D)g);
-
         // Borders
         g.setColor(Color.yellow);
         g.fillRect(0,0,3,592);
