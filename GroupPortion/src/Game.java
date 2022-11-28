@@ -8,7 +8,7 @@ import java.awt.event.KeyListener;
 public class Game extends JPanel implements KeyListener, ActionListener {
     private boolean play = false;
     private int score = 0;
-    private int totalBricks = 42;
+    private int totalBricks = 63;
     private Timer timer;
     private int delay = 8;
     private int playerX = 310;
