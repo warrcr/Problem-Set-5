@@ -8,7 +8,7 @@ import java.awt.event.KeyListener;
 public class Game extends JPanel implements KeyListener, ActionListener {
     private boolean play = false;
     private int score = 0;
-    private int totalBricks = 63;
+    private int totalBricks = 42;
     private Timer timer;
     private int delay = 8;
     private int playerX = 310;
@@ -20,7 +20,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
 
 
     public Game() {
-        map = new LevelMapGenerator(3,7, 3);
+        map = new LevelMapGenerator(3,7, 2);
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -162,8 +162,8 @@ public class Game extends JPanel implements KeyListener, ActionListener {
                 ballYdir = -2;
                 playerX = 310;
                 score = 0;
-                totalBricks = 42;
-                map = new LevelMapGenerator(3, 7, 2);
+                totalBricks = 63;
+                map = new LevelMapGenerator(3, 7, 3);
 
                 repaint();
             }

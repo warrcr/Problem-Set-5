@@ -21,7 +21,8 @@ public class LevelMapGenerator extends MapGenerator {
                 if (map[i][j] > 0) {
                     if (map[i][j] == 3) {
                         g.setColor(Color.red);
-                    } if (map[i][j] == 2) {
+                    }
+                    if (map[i][j] == 2) {
                         g.setColor(Color.yellow);
                     }
                     if (map[i][j] == 1) {
