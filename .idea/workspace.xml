@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="attempt">
-      <change afterPath="$PROJECT_DIR$/GroupPortion/src/RandomColor.java" afterDir="false" />
+    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="all jacks changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupPortion/src/MapGenerator2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/June/src/PongV2/HumanPaddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/June/src/PongV2/HumanPaddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June/src/PongV2/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/June/src/PongV2/Paddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June/src/PongV2/Tennis.java" beforeDir="false" afterPath="$PROJECT_DIR$/June/src/PongV2/Tennis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
