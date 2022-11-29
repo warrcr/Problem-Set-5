@@ -67,14 +67,14 @@ public class Tennis extends JFrame implements Runnable, KeyListener {
         }
 
     }
-
+//NEED TO CHANGE THIS?
     @Override
     public void keyPressed(KeyEvent e) {
         if(e.getKeyCode() == KeyEvent.VK_UP){
-            p1.setUpAccel(true);
+            p1.setRightAccel(true);
         }
         else if (e.getKeyCode() == KeyEvent.VK_DOWN){
-            p1.setDownAccel(true);
+            p1.setLeftAccel(true);
         }
         else if(e.getKeyCode() == KeyEvent.VK_ENTER){
             gameStarted = true;

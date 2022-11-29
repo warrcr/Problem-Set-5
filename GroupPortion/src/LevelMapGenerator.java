@@ -4,6 +4,7 @@ import java.util.Random;
 public class LevelMapGenerator extends MapGenerator {
 
     private int levels;
+    private RandomColor randomColor;
 
     public LevelMapGenerator(int row, int column, int level) {
         super(row, column);
@@ -20,7 +21,8 @@ public class LevelMapGenerator extends MapGenerator {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
                 if (map[i][j] > 0) {
-                    if (map[i][j] % 10 == 1) {
+                    randomColor = new RandomColor(g, map, i, j);
+                    /*if (map[i][j] % 10 == 1) {
                         g.setColor(Color.green);
                     }
                     else if (map[i][j] % 10 == 2) {
@@ -49,7 +51,7 @@ public class LevelMapGenerator extends MapGenerator {
                     }
                     else {
                         g.setColor(Color.gray);
-                    }
+                    }*/
                     g.fillRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
 
                     g.setStroke(new BasicStroke(3));
