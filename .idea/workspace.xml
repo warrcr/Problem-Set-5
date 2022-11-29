@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="all jacks changes">
+    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="attempt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Game.java" afterDir="false" />
     </list>
