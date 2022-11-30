@@ -1,3 +1,12 @@
+/**********************************************************************
+ * @file Main.java
+ * @brief
+ * @author June Bernstein, Jack Dawson, Carly Warren
+ * @date: November 30, 2022
+ * @acknowledgement: Based on Brick Breaker Video
+ ***********************************************************************/
+
+
 import javax.swing.*;
 // This is the main method of Brick Breaker
 /* Ideas to implement into code:

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="attempt">
+    <list default="true" id="0d660eb3-bbf7-4143-8bd1-d1bce16a55ec" name="Changes" comment="changing starting ball position">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupPortion/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/LevelMapGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupPortion/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupPortion/src/MapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/MapGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupPortion/src/RandomColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupPortion/src/RandomColor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669679420454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changing starting ball position">
+      <created>1669761800143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669761800143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt" />
+    <MESSAGE value="changing starting ball position" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing starting ball position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -184,12 +196,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GroupPortion/src/Game.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GroupPortion/src/Game.java</url>
-          <line>163</line>
+          <line>172</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

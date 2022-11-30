@@ -1,3 +1,12 @@
+/**********************************************************************
+ * @file LevelMapGenerator.java
+ * @brief
+ * @author June Bernstein, Jack Dawson, Carly Warren
+ * @date: November 30, 2022
+ * @acknowledgement: n/a
+ ***********************************************************************/
+
+
 import java.awt.*;
 
 public class LevelMapGenerator extends MapGenerator {

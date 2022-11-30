@@ -1,3 +1,13 @@
+/**********************************************************************
+ * @file RandomColor.java
+ * @brief - When we actually made it random it made the bricks oscillate between the 10 colors
+ *          so we changed it to regulate which color is used based on level.
+ * @author June Bernstein, Jack Dawson, Carly Warren
+ * @date: November 30, 2022
+ * @acknowledgement: n/a
+ ***********************************************************************/
+
+
 import java.awt.*;
 
 public class RandomColor {

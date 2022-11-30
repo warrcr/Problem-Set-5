@@ -1,3 +1,12 @@
+/**********************************************************************
+ * @file MapGenerator.java
+ * @brief
+ * @author June Bernstein, Jack Dawson, Carly Warren
+ * @date: November 30, 2022
+ * @acknowledgement: Based on Brick Breaker Video
+ ***********************************************************************/
+
+
 import java.awt.*;
 
 public class MapGenerator {
